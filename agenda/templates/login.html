@@ -6,11 +6,7 @@
 </head>
 <body>
     <h1>Login</h1>
-    <form action="submit" method="post">
-        {% csrf_token %}
-        <script>
-        const csrftoken = document.querySelector('[name=csrfmiddlewaretoken]').value;
-        </script>
+    <form action="submit" method="POST">{% csrf_token %}
         <div align="center">
             <label>Usuário:</label>
             <input type="text" name="username">

@@ -120,6 +120,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-# AUTO FIELD
-
 DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
